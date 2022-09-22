@@ -10,6 +10,7 @@ class TwoMain {
 			obj.main();
 			obj.main(2);
 			obj.main('a');
+			obj.main(3,4);
 		
 	}		
 
@@ -24,6 +25,10 @@ class TwoMain {
 	void main(char a)
 	{
 		System.out.println("We will be happy :)");
+	}
+	void main(int a,int b)
+	{
+		System.out.println("Finally Thankyou for the Break");
 	}
 
 	

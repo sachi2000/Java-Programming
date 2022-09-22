@@ -1,27 +1,27 @@
 package javaprogram;
- class Bird //super class
+ class Engineers //super class
 {
-	  void bird()
+	  void pk()
 	{
-		System.out.println("Which is our National Bird ? ");
+		System.out.println("Its Sep 15 ");
 	}
 }
 
-public class MethodOverRiding extends Bird{    //sub class
+public class MethodOverRiding extends Engineers{    //sub class
 
 	public static void main(String[] args) {
 		
 		// TODO Auto-generated method stub
 		MethodOverRiding obj=new MethodOverRiding();
-		obj.bird(); // call the subclass method
+		obj.pk(); // call the subclass method
 				
 
 	}
 
-	void bird()
+	void pk()
 	{
-	    super.bird(); //To call the method in the super class
-		System.out.println("PEACOCK");
+	    super.pk(); //To call the method in the super class
+		System.out.println("Happy Engineers Day :)");
 	}
 	
 

@@ -1,16 +1,17 @@
-package Basicsunderjava;
+package pack1;
 
-public class Function {
+
+public class Exchange {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		Function obj=new Function();
+		Exchange obj=new Exchange();
 		int total=obj.Add(40,40);
-		int difference=obj.sub(30,20);
+		int difference=obj.sub(5,2);
 		int multiplication=obj.mul(2,3);
-		System.out.println("Multiplication is "+multiplication);
+		System.out.println("Addition is "+total);
 		System.out.println("Difference is "+difference);
-		System.out.println("Division is  "+total);
+		System.out.println("Multiplication is "+multiplication);
 		obj.div(60,20);
 		int Modulation=obj.modd(10,3);
 		System.out.println("Modulation is "+Modulation);
@@ -38,10 +39,10 @@ public class Function {
 	public void div(int x,int y)
 	{
 		int divi=x/y;
-		System.out.println("divison is"+divi);
+		System.out.println("divison is "+divi);
 		
 	}
-	int modd(int x,int y)
+	 public int modd(int x,int y)
 	{
 		int mod=x%y;
 		return(mod);
@@ -49,3 +50,7 @@ public class Function {
 	}
 
 }
+
+	
+
+
